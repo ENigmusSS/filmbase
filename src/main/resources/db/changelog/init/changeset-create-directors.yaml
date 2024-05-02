@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-directors
+      author: holovchenko
+      changes:
+        - createTable:
+            tableName: directors
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  constraints:
+                    primaryKey: true
+                  generationType: sequence
+              - column:
+                  name: name
+                  type: varchar
+                  constraints:
+                    nullable: false
+                    unique: true
+                    validateUnique: true
+        - createSequence:
+            sequenceName: directors_seq
+            startValue: 1
+            incrementBy: 1

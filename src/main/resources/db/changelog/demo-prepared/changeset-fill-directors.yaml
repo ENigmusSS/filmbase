@@ -1,0 +1,27 @@
+databaseChangeLog:
+  - changeSet:
+      id: demo-prepared-fill-directors-hitchcock
+      author: holovchenko
+      changes:
+        - insert:
+            tableName: directors
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: name
+                  value: Hitchcock
+  - changeSet:
+      id: demo-prepared-fill-directors-jackiechan
+      author: holovchenko
+      changes:
+        - insert:
+            tableName: directors
+            columns:
+              - column:
+                  name: id
+                  value: 2
+              - column:
+                  name: name
+                  value: JackieChan

@@ -1,0 +1,310 @@
+[
+    {
+        "title" : "Reservoir Dogs",
+        "year" : 1992,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Lawrence Bender"
+        ],
+        "starring" : [
+            "Harvey Keitel",
+            "Tim Roth",
+            "Chris Penn",
+            "Steve Buscemi",
+            "Steve Buscemi",
+            "Michael Madsen"
+        ],
+        "Running time" : 99,
+        "Genres" : [
+            "crime",
+            "action",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Pulp fiction",
+        "year" : 1994,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Lawrence Bender"
+        ],
+        "starring" : [
+            "John Travolta",
+            "Samuel L. Jackson",
+            "Uma Thurman",
+            "Harvey Keitel",
+            "Tim Roth",
+            "Amanda Plummer",
+            "Maria de Medeiros",
+            "Ving Rhames",
+            "Eric Stoltz",
+            "Rosanna Arquette",
+            "Christopher Walken",
+            "Bruce Willis"
+        ],
+        "Running time" : 154,
+        "genres" : [
+            "drama",
+            "action",
+            "adventure",
+            "crime"
+        ]
+    },
+    {
+        "title" : "Jackie Brown",
+        "year" : 1997,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Lawrence Bender"
+        ],
+        "starring" : [
+            "Pam Grier",
+            "Samuel L. Jackson",
+            "Robert Forster",
+            "Bridget Fonda",
+            "Michael Keaton",
+            "Robert De Niro"
+        ],
+        "Running time" : 154,
+        "genres" : [
+            "action",
+            "adventure",
+            "drama",
+            "crime",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Kill Bill: Volume 1",
+        "year" : 2003,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Lawrence Bender"
+        ],
+        "starring" : [
+            "Uma Thurman",
+            "Lucy Liu",
+            "Vivica A. Fox",
+            "Michael Madsen",
+            "Daryl Hannah",
+            "David Carradine",
+            "Sonny Chiba",
+            "Julie Dreyfus",
+            "Chiaki Kuriyama",
+            "Gordon Liu",
+            "Michael Parks"
+        ],
+        "Running time" : 111,
+        "genres" : [
+            "action",
+            "adventure",
+            "drama",
+            "crime",
+            "thriller",
+            "martial arts"
+        ]
+    },
+    {
+        "title" : "Kill Bill: Volume 2",
+        "year" : 2004,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Lawrence Bender"
+        ],
+        "starring" : [
+            "Uma Thurman",
+            "David Carradine",
+            "Michael Madsen",
+            "Daryl Hannah",
+            "Gordon Liu",
+            "Michael Parks"
+        ],
+        "Running time" : 137,
+        "genres" : [
+            "action",
+            "adventure",
+            "drama",
+            "crime",
+            "thriller",
+            "martial arts"
+        ]
+    },
+    {
+        "title" : "Death Proof",
+        "year" : 2007,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Quentin Tarantino"
+        ],
+        "starring" : [
+            "Kurt Russell",
+            "Rosario Dawson",
+            "Vanessa Ferlito",
+            "Jordan Ladd",
+            "Rose McGowan",
+            "Sydney Poitier",
+            "Tracie Thoms",
+            "Mary Elizabeth Winstead",
+            "Zoë Bell"
+        ],
+        "Running time" : 113,
+        "genres" : [
+            "action",
+            "adventure",
+            "horror",
+            "mystery",
+            "thriller",
+            "chase",
+            "slasher"
+        ]
+    },
+    {
+        "title" : "Inglourious Basterds",
+        "year" : 2009,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Lawrence Bender"
+        ],
+        "starring" : [
+            "Brad Pitt",
+            "Christoph Waltz",
+            "Michael Fassbender",
+            "Eli Roth",
+            "Diane Kruger",
+            "Daniel Brühl",
+            "Til Schweiger",
+            "Mélanie Laurent",
+            "August Diehl",
+            "Julie Dreyfus",
+            "Sylvester Groth",
+            "Jacky Ido",
+            "Denis Ménochet",
+            "Mike Myers",
+            "Rod Taylor",
+            "Martin Wuttke"
+        ],
+        "Running time" : 153,
+        "genres" : [
+            "drama",
+            "action",
+            "adventure",
+            "war",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Django Unchained",
+        "year" : 2012,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Stacey Sher",
+            "Reginald Hudlin",
+            "Pilar Savone"
+        ],
+        "starring" : [
+            "Jamie Foxx",
+            "Christoph Waltz",
+            "Leonardo DiCaprio",
+            "Kerry Washington",
+            "Samuel L. Jackson",
+            "Walton Goggins",
+            "Dennis Christopher",
+            "James Remar",
+            "Michael Parks",
+            "Don Johnson"
+        ],
+        "Running time" : 165,
+        "genres" : [
+            "drama",
+            "action",
+            "adventure",
+            "comedy",
+            "western"
+        ]
+    },
+    {
+        "title" : "The Hateful Eight",
+        "year" : 2015,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "Richard N. Gladstein",
+            "Stacey Sher",
+            "Shannon McIntosh"
+        ],
+        "starring" : [
+            "Samuel L. Jackson",
+            "Kurt Russell",
+            "Jennifer Jason Leigh",
+            "Walton Goggins",
+            "Demián Bichir",
+            "Tim Roth",
+            "Michael Madsen",
+            "Bruce Dern",
+            "James Parks",
+            "Channing Tatum"
+        ],
+        "Running time" : 168,
+        "genres" : [
+            "western",
+            "drama",
+            "mystery"
+        ]
+    },
+    {
+        "title" : "Once Upon a Time...in Hollywood",
+        "year" : 2019,
+        "directed by" : "Quentin Tarantino",
+        "written by" : [
+            "Quentin Tarantino"
+        ],
+        "produced by" : [
+            "David Heyman",
+            "Shannon McIntosh",
+            "Quentin Tarantino"
+        ],
+        "starring" : [
+            "Leonardo DiCaprio",
+            "Brad Pitt",
+            "Margot Robbie",
+            "Emile Hirsch",
+            "Margaret Qualley",
+            "Timothy Olyphant",
+            "Austin Butler",
+            "Dakota Fanning",
+            "Bruce Dern",
+            "Al Pacino"
+        ],
+        "Running time" : 161,
+        "genres" : [
+            "comedy",
+            "drama"
+        ]
+    }
+]

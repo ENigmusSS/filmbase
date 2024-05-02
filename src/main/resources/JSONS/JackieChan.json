@@ -1,0 +1,351 @@
+[
+    {
+        "title" : "The Fearless Hyena",
+        "year" : 1979,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan"
+        ],
+        "produced by" : [
+            "Hsu Li-hwa"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "James Tien",
+            "Dean Shek"
+        ],
+        "running time" : 97,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts"
+        ]
+    },
+    {
+        "title" : "The Young Master",
+        "year" : 1980,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Edward Tang",
+            "Lau Tin-chi",
+            "Tung Lu"
+        ],
+        "produced by" : [
+            "Raymond Chow",
+            "Leonard Ho"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Yuen Biao",
+            "Fung Fung",
+            "Shih Kien"
+        ],
+        "running time" : 106,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts"
+        ]
+    },
+    {
+        "title" : "Dragon Lord",
+        "year" : 1982,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Edward Tang",
+            "Barry Wong"
+        ],
+        "produced by" : [
+            "Raymond Chow",
+            "Leonard Ho"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Mars",
+            "Hwang In-Shik",
+            "Tien Feng"
+        ],
+        "running time" : 102,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts"
+        ]
+    },
+    {
+        "title" : "Project A",
+        "year" : 1983,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Edward Tang"
+        ],
+        "produced by" : [
+            "Raymond Chow",
+            "Leonard Ho",
+            "Edward Tang"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Sammo Hung",
+            "Yuen Biao",
+            "Dick Wei",
+            "Lee Hoi San",
+            "Mars"
+        ],
+        "running time" : 105,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts"
+        ]
+    },
+    {
+        "title" : "Police Story",
+        "year" : 1985,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Edward Tang"
+        ],
+        "produced by" : [
+            "Jackie Chan",
+            "Willy Chan",
+            "Raymond Chow",
+            "Leonard Ho",
+            "Edward Tang"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Sammo Hung",
+            "Yuen Biao",
+            "Dick Wei",
+            "Lee Hoi San",
+            "Mars"
+        ],
+        "running time" : 105,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts",
+            "mystery",
+            "crime",
+            "thriller",
+            "detective"
+        ]
+    },
+    {
+        "title" : "Armour of God",
+        "year" : 1986,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "John Sheppard",
+            "Eric Tsang"
+        ],
+        "produced by" : [
+            "Leonard Ho",
+            "Chua Lam"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Alan Tam",
+            "Lola Forner",
+            "Rosamund Kwan"
+        ],
+        "running time" : 97,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts",
+            "mystery"
+        ]
+    },
+    {
+        "title" : "Project A Part II",
+        "year" : 1987,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Edward Tang"
+        ],
+        "produced by" : [
+            "Raymond Chow",
+            "Leonard Ho",
+            "Edward Tang"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Maggie Cheung",
+            "Rosamund Kwan",
+            "Bill Tung"
+        ],
+        "running time" : 106,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts"
+        ]
+    },
+    {
+        "title" : "Police Story 2",
+        "year" : 1988,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Edward Tang",
+            "Masahiro Kakefuda"
+        ],
+        "produced by" : [
+            "Leonard Ho"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Maggie Cheung",
+            "Charlie Cho",
+            "Mars"
+        ],
+        "running time" : 101,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts",
+            "crime",
+            "thriller",
+            "detective"
+        ]
+    },
+    {
+        "title" : "Miracles",
+        "year" : 1989,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Edward Tang"
+        ],
+        "produced by" : [
+            "Raymond Chow",
+            "Leonard Ho"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Anita Mui",
+            "Gua Ah-leh",
+            "Ko Chun-hsiung",
+            "Wu Ma",
+            "Bill Tung",
+            "Richard Ng",
+            "Gloria Yip",
+            "Mars"
+        ],
+        "running time" : 127,
+        "genres" : [
+            "action",
+            "adventure",
+            "martial arts",
+            "crime"
+        ]
+    },
+    {
+        "title" : "Armour of God II: Operation Condor",
+        "year" : 1991,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Edward Tang"
+        ],
+        "produced by" : [
+            "Raymond Chow",
+            "Leonard Ho"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Carol Cheng",
+            "Eva Cobo de Garcia",
+            "Shôko Ikeda"
+        ],
+        "running time" : 107,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts",
+            "crime",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Who Am I?",
+        "year" : 1998,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Susan Chan",
+            "Lee Reynolds"
+        ],
+        "produced by" : [
+            "Barbie Tung"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Michelle Ferre",
+            "Mirai Yamamoto",
+            "Ron Smerczak",
+            "Ed Nelson",
+            "Washington Sixolo"
+        ],
+        "running time" : 103,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts",
+            "thriller",
+            "spy"
+        ]
+    },
+    {
+        "title" : "CZ12 (Armour Of God 3)",
+        "year" : 1912,
+        "directed by" : "Jackie Chan",
+        "written by" : [
+            "Jackie Chan",
+            "Stanley Tong",
+            "Frankie Chan",
+            "Edward Tang"
+        ],
+        "produced by" : [
+            "Jackie Chan",
+            "Stanley Tong",
+            "Barbie Tung",
+            "Esmond Ren",
+            "Albert Lee",
+            "James Wang"
+        ],
+        "starring" : [
+            "Jackie Chan",
+            "Kwon Sang-woo",
+            "Liao Fan",
+            "Anna Yao",
+            "Zoe Zhang",
+            "Laura Weissbecker"
+        ],
+        "running time" : 123,
+        "genres" : [
+            "action",
+            "adventure",
+            "comedy",
+            "martial arts"
+        ]
+    }
+]

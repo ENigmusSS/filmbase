@@ -1,0 +1,54 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-films
+      author: holovchenko
+      changes:
+        - createTable:
+            tableName: films
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  constraints:
+                    primaryKey: true
+                    validatePrimaryKey: true
+                    unique: true
+                    validateUnique: true
+                    nullable: false
+                  generationType: sequence
+              - column:
+                  name: title
+                  type: varchar
+                  constraints:
+                    unique: true
+                    validateUnique: true
+                    nullable: false
+              - column:
+                  name: year
+                  type: int
+              - column:
+                  name: directed_by
+                  type: bigint
+                  constraints:
+                    foreignKeyName: director_film_fk
+                    referencedTableName: directors
+                    referencedColumnNames: id
+              - column:
+                  name: written_by
+                  type: varchar
+              - column:
+                  name: produced_by
+                  type: varchar
+              - column:
+                  name: starring
+                  type: varchar
+              - column:
+                  name: running_time
+                  type: int
+              - column:
+                  name: genres
+                  type: varchar
+        - createSequence:
+            sequenceName: films_seq
+            startValue: 1
+            incrementBy: 1

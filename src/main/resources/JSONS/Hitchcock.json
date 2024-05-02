@@ -1,0 +1,287 @@
+[
+    {
+        "title" : "The Man Who Knew Too Much",
+        "year" : 1956,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Charles Bennett",
+            "D. B. Wyndham-Lewis"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "James Stewart",
+            "Doris Day"
+        ],
+        "running time" : 120,
+        "genres" : [
+            "mystery",
+            "drama",
+            "spy",
+            "crime",
+            "music",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "The Wrong Man",
+        "year" : 1956,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "based on real precedent",
+            "Maxwell Anderson",
+            "Herbert Brean"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Henry Fonda",
+            "Vera Miles"
+        ],
+        "running time" : 105,
+        "genres" : [
+            "drama",
+            "mystery",
+            "crime",
+            "documentary"
+        ]
+    },
+    {
+        "title" : "Vertigo",
+        "year" : 1958,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Pierre Boileau",
+            "Thomas Narcejac"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "James Stewart",
+            "Kim Novak",
+            "Barbara Bel Geddes",
+            "Tom Helmore",
+            "Henry Jones"
+        ],
+        "running time" : 128,
+        "genres" : [
+            "mystery",
+            "drama",
+            "romance",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "North by Northwest",
+        "year" : 1959,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Ernest Lehman"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Cary Grant",
+            "Eva Marie Saint",
+            "James Mason",
+            "Jessie Royce Landis"
+        ],
+        "running time" : 136,
+        "genres" : [
+            "action",
+            "adventure",
+            "drama",
+            "romance",
+            "mystery",
+            "spy",
+            "comedy",
+            "thriller",
+            "chase"
+        ]
+    },
+    {
+        "title" : "Psycho",
+        "year" : 1960,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Robert Bloch"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Anthony Perkins",
+            "Vera Miles",
+            "John Gavin",
+            "Martin Balsam",
+            "John McIntire",
+            "Janet Leigh"
+        ],
+        "running time" : 109,
+        "genres" : [
+            "mystery",
+            "drama",
+            "horror",
+            "thriller",
+            "slasher"
+        ]
+    },
+    {
+        "title" : "The Birds",
+        "year" : 1963,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Daphne du Maurier"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Rod Taylor",
+            "Jessica Tandy",
+            "Suzanne Pleshette",
+            "Tippi Hedren"
+        ],
+        "running time" : 119,
+        "genres" : [
+            "horror",
+            "romance",
+            "drama",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Marnie",
+        "year" : 1964,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Winston Graham"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Tippi Hedren",
+            "Sean Connery",
+            "Diane Baker",
+            "Martin Gabel"
+        ],
+        "running time" : 130,
+        "genres" : [
+            "mystery",
+            "romance",
+            "drama",
+            "crime",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Torn Curtain",
+        "year" : 1966,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Willis Hall",
+            "Keith Waterhouse"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Paul Newman",
+            "Julie Andrews"
+        ],
+        "running time" : 128,
+        "genres" : [
+            "mystery",
+            "romance",
+            "drama",
+            "spy",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Topaz",
+        "year" : 1969,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "based on real precedent",
+            "Leon Uris"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Frederick Stafford",
+            "Dany Robin",
+            "John Vernon",
+            "Karin Dor",
+            "Claude Jade",
+            "Michel Subor",
+            "Michel Piccoli",
+            "Philippe Noiret",
+            "Roscoe Lee Browne",
+            "John Forsythe"
+        ],
+        "running time" : 143,
+        "genres" : [
+            "drama",
+            "spy",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Frenzy",
+        "year" : 1972,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Anthony Shaffer",
+            "Arthur La Bern"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Jon Finch",
+            "Alec McCowen",
+            "Barry Foster"
+        ],
+        "running time" : 116,
+        "genres" : [
+            "mystery",
+            "horror",
+            "comedy",
+            "crime",
+            "detective",
+            "thriller"
+        ]
+    },
+    {
+        "title" : "Family Plot",
+        "year" : 1976,
+        "directed by" : "Alfred Hitchcock",
+        "written by" : [
+            "Ernest Lehman",
+            "Victor Canning"
+        ],
+        "produced by" : [
+            "Alfred Hitchcock"
+        ],
+        "starring" : [
+            "Karen Black",
+            "Bruce Dern",
+            "Barbara Harris",
+            "William Devane"
+        ],
+        "running time" : 120,
+        "genres" : [
+            "comedy",
+            "crime",
+            "detective",
+            "thriller"
+        ]
+    }
+]
