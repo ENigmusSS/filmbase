@@ -8,7 +8,7 @@ databaseChangeLog:
             columns:
               - column:
                   name: id
-                  value: 1
+                  valueSequenceCurrent: directors_seq
               - column:
                   name: name
                   value: Hitchcock
@@ -21,7 +21,7 @@ databaseChangeLog:
             columns:
               - column:
                   name: id
-                  value: 2
+                  valueSequenceCurrent: directors_seq
               - column:
                   name: name
                   value: JackieChan
