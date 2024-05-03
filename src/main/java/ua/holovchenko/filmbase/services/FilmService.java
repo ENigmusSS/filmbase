@@ -10,13 +10,12 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
-import ua.holovchenko.filmbase.controllers.dto.FilmListDto;
-import ua.holovchenko.filmbase.controllers.dto.FilmListResponse;
-import ua.holovchenko.filmbase.controllers.dto.FilmsUploadResponse;
-import ua.holovchenko.filmbase.controllers.dto.Filters;
+import ua.holovchenko.filmbase.controllers.dto.*;
 import ua.holovchenko.filmbase.converters.FilmModelEntityConverter;
+import ua.holovchenko.filmbase.entities.Director;
 import ua.holovchenko.filmbase.entities.Film;
 import ua.holovchenko.filmbase.models.FilmModel;
+import ua.holovchenko.filmbase.repositories.DirectorRepository;
 import ua.holovchenko.filmbase.repositories.FilmRepository;
 import ua.holovchenko.filmbase.repositories.criteria.FilmSpecification;
 
@@ -28,16 +27,19 @@ import java.util.NoSuchElementException;
 
 import static ua.holovchenko.filmbase.converters.FilmModelEntityConverter.filmEntityToModel;
 import static ua.holovchenko.filmbase.converters.FilmModelEntityConverter.filmModelToEntity;
+import static ua.holovchenko.filmbase.converters.UploadDtoConverter.*;
 
 @Service
 public class FilmService {
     private final FilmRepository repo;
     private final FilmSpecification spec;
+    private final DirectorRepository directorRepository;
 
     @Autowired
-    public FilmService(FilmRepository repo, FilmSpecification spec) {
+    public FilmService(FilmRepository repo, FilmSpecification spec, DirectorRepository directorRepository) {
         this.repo = repo;
         this.spec = spec;
+        this.directorRepository = directorRepository;
     }
 
     public FilmModel createFilm(FilmModel model) {
@@ -98,12 +100,16 @@ public class FilmService {
         };
     }
 
-    public FilmsUploadResponse uploadJson(List<FilmModel> modelList) {
+    public FilmsUploadResponse uploadJson(List<FilmUploadDto> dtoList) {
         FilmsUploadResponse response = new FilmsUploadResponse();
-        for (FilmModel model:
-             modelList) {
+        for (FilmUploadDto dto:
+             dtoList) {
             try {
-                repo.save(filmModelToEntity(model));
+                if (repo.existsByTitle(dto.getTitle())) throw  new ValidationException();
+                Director director = directorRepository.findByName(dto.getDirectedBy());
+                if (director == null) throw new ValidationException();
+                FilmModel model = uploadedDtoToModel(dto);
+                repo.save(filmModelToEntity(model, director));
                 response.setImported(response.getImported() + 1);
             } catch (Exception e) {
                 response.setFailed(response.getFailed() + 1);

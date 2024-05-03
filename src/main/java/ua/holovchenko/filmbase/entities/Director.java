@@ -18,6 +18,7 @@ import java.util.Set;
 public class Director {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
 
     @Column(name = "name", nullable = false, length = Integer.MAX_VALUE)

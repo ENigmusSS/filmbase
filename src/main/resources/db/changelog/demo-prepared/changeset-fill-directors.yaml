@@ -8,10 +8,10 @@ databaseChangeLog:
             columns:
               - column:
                   name: id
-                  valueSequenceCurrent: directors_seq
+                  valueSequenceNext: directors_seq
               - column:
                   name: name
-                  value: Hitchcock
+                  value: Alfred Hitchcock
   - changeSet:
       id: demo-prepared-fill-directors-jackiechan
       author: holovchenko
@@ -21,7 +21,7 @@ databaseChangeLog:
             columns:
               - column:
                   name: id
-                  valueSequenceCurrent: directors_seq
+                  valueSequenceNext: directors_seq
               - column:
                   name: name
-                  value: JackieChan
+                  value: Jackie Chan

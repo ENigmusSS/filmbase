@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
 import ua.holovchenko.filmbase.controllers.dto.FilmListResponse;
+import ua.holovchenko.filmbase.controllers.dto.FilmUploadDto;
 import ua.holovchenko.filmbase.controllers.dto.FilmsUploadResponse;
 import ua.holovchenko.filmbase.controllers.dto.Filters;
 import ua.holovchenko.filmbase.models.FilmModel;
@@ -97,11 +98,11 @@ public class FilmRestController {
     public ResponseEntity<FilmsUploadResponse> uploadFilms(@RequestParam("file") MultipartFile json) {
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        TypeReference<List<FilmModel>> listType = new TypeReference<>() {
+        TypeReference<List<FilmUploadDto>> listType = new TypeReference<>() {
         };
         try {
-            List<FilmModel> modelList = mapper.readValue(json.getBytes(), listType);
-            return ResponseEntity.ok(service.uploadJson(modelList));
+            List<FilmUploadDto> dtoList = mapper.readValue(json.getBytes(), listType);
+            return ResponseEntity.ok(service.uploadJson(dtoList));
         } catch (IOException e) {
             return ResponseEntity.badRequest().build();
         }

@@ -7,4 +7,6 @@ import ua.holovchenko.filmbase.entities.Director;
 public interface DirectorRepository extends JpaRepository<Director, Long>, JpaSpecificationExecutor<Director> {
 
     boolean existsByName(String name);
+
+    Director findByName(String directedBy);
 }

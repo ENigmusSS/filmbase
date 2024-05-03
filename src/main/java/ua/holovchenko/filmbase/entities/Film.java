@@ -11,6 +11,7 @@ import lombok.*;
 @Table(name = "films")
 public class Film {
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
 
     @Column(name = "title", nullable = false, length = Integer.MAX_VALUE)

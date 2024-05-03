@@ -1,24 +1,22 @@
-package ua.holovchenko.filmbase.models;
+package ua.holovchenko.filmbase.controllers.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import java.io.Serializable;
 import java.util.Set;
 
-/**
- * DTO for {@link ua.holovchenko.filmbase.entities.Film}
- */
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class FilmModel implements Serializable {
-    long id;
+public class FilmUploadDto {
     String title;
     Integer year;
     @JsonProperty("directed by")
-    DirectorModel directedBy;
+    String directedBy;
     @JsonProperty("written by")
     Set<String> writtenBy;
     @JsonProperty("produced by")
