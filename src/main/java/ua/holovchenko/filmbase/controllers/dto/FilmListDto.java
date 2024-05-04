@@ -4,6 +4,11 @@ import lombok.Value;
 import ua.holovchenko.filmbase.models.DirectorModel;
 import ua.holovchenko.filmbase.models.FilmModel;
 
+
+/**
+ *  Shortened DTO for @link{ua.holovchenko.filmbase.entities.Film}
+ *  for use in lists
+ */
 @Value
 public class FilmListDto {
     long id;

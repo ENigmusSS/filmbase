@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 /**
- * DTO for {@link ua.holovchenko.filmbase.entities.Director}
+ * Model for {@link ua.holovchenko.filmbase.entities.Director}
  */
 @AllArgsConstructor
 @RequiredArgsConstructor

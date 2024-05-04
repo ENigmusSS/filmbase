@@ -7,6 +7,9 @@ import lombok.ToString;
 
 import java.util.List;
 
+/**
+ * Response body DTO containing a list of shortened Film DTOs and number of such pages base holds.
+ */
 @Getter
 @Setter
 @ToString

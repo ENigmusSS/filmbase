@@ -8,6 +8,9 @@ import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
 
+/**
+ * Represents a Director entity.
+ */
 @AllArgsConstructor
 @RequiredArgsConstructor
 @Getter
@@ -28,20 +31,39 @@ public class Director {
     @ToString.Exclude
     private Set<Film> films = new LinkedHashSet<>();
 
+    /**
+     * Constructor for a Director with only a name.
+     * @param name The name of the director.
+     */
     public Director(String name) {
         this.name = name;
     }
 
+    /**
+     * Constructor for a Director with a name and a set of films.
+     * @param name The name of the director.
+     * @param films The films directed by this director.
+     */
     public Director(String name, Set<Film> films) {
         this.name = name;
         this.films = films;
     }
 
+    /**
+     * Constructor for a Director with an id and a name.
+     * @param id The id of the director.
+     * @param name The name of the director.
+     */
     public Director(long id, String name) {
         this.id = id;
         this.name = name;
     }
 
+    /**
+     * Custom equals method to compare Directors.
+     * @param o The object to compare.
+     * @return True if the Directors are equal, false otherwise.
+     */
     @Override
     public final boolean equals(Object o) {
         if (this == o) return true;
@@ -53,6 +75,10 @@ public class Director {
         return getName() != null && Objects.equals(getName(), director.getName());
     }
 
+    /**
+     * Custom hashCode method.
+     * @return The hash code.
+     */
     @Override
     public final int hashCode() {
         return this instanceof HibernateProxy ? ((HibernateProxy) this).getHibernateLazyInitializer().getPersistentClass().hashCode() : getClass().hashCode();

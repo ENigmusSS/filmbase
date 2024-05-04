@@ -4,6 +4,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import ua.holovchenko.filmbase.entities.Director;
 
+/**
+ * Repository for Director entities
+ */
 public interface DirectorRepository extends JpaRepository<Director, Long>, JpaSpecificationExecutor<Director> {
 
     boolean existsByName(String name);

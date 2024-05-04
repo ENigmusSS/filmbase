@@ -5,6 +5,10 @@ package ua.holovchenko.filmbase.controllers.dto;
 import lombok.*;
 
 import java.util.Set;
+
+/**
+ * DTO containing pagination and filtration params to take from request.
+ */
 @Getter
 @Setter
 @AllArgsConstructor

@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.Set;
 
 /**
- * DTO for {@link ua.holovchenko.filmbase.entities.Film}
+ * Model for {@link ua.holovchenko.filmbase.entities.Film}
  */
 @AllArgsConstructor
 @NoArgsConstructor

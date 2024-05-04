@@ -2,6 +2,9 @@ package ua.holovchenko.filmbase.controllers.dto;
 
 import lombok.*;
 
+/**
+ * Response body for upload request.
+ */
 @Getter
 @Setter
 @NoArgsConstructor

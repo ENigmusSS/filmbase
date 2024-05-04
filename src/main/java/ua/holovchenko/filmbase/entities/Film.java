@@ -3,6 +3,9 @@ package ua.holovchenko.filmbase.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
+/**
+ * Represents a Film entity.
+ */
 @AllArgsConstructor
 @RequiredArgsConstructor
 @Getter
@@ -39,6 +42,17 @@ public class Film {
     @Column(name = "genres", length = Integer.MAX_VALUE)
     private String genres;
 
+    /**
+     * Constructor for a Film with all attributes.
+     * @param title The title of the film.
+     * @param year The year the film was released.
+     * @param directedBy The Director who directed the film.
+     * @param writtenBy The writers of the film.
+     * @param producedBy The producers of the film.
+     * @param starring The main actors of the film.
+     * @param runningTime The duration of the film in minutes.
+     * @param genres The genres of the film.
+     */
     public Film(String title, Integer year, Director directedBy, String writtenBy, String producedBy, String starring, Integer runningTime, String genres) {
         this.title = title;
         this.year = year;

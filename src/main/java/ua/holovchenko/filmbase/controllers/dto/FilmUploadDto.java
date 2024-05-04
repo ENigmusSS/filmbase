@@ -8,6 +8,9 @@ import lombok.Setter;
 
 import java.util.Set;
 
+/**
+ * DTO for data uploaded via .json file for conversion through FilmModel to Film entity.
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
